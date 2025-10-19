@@ -7,7 +7,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.mymod.FabricEntrypoint"
+      "com.legendaryspy.connectedcore.loaders.fabric.FabricEntrypoint"
     ]
   }
 }
