@@ -1,5 +1,4 @@
-# Modstitch Stonecutter Template
+This mod serves as a utility / core mod for the [Connected Modpack](https://modrinth.com/modpack/connected) and the [Create Combined Modpack](https://modrinth.com/modpack/create-combined), currently this adds:
 
-This is the recommended template for using Modstitch.
-
-Refer to the modstitch documentation for setup instructions.
+### Firework boosting configuration
+Allows you to disable firework boosting working on elytras
