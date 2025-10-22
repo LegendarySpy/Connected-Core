@@ -9,6 +9,10 @@ fun prop(name: String, consumer: (prop: String) -> Unit) {
 
 val minecraft = property("deps.minecraft") as String
 
+// Set the archive base name based on the platform
+val platform = project.name.split("-").lastOrNull() ?: "unknown"
+base.archivesName.set("connectedcore-${platform}")
+
 modstitch {
     minecraftVersion = minecraft
 
@@ -22,7 +26,6 @@ modstitch {
     parchment {
         prop("deps.parchment") { mappingsVersion = it }
     }
-
     metadata {
         modId = "connectedcore"
         modName = "Connected Core"
