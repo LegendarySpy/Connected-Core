@@ -5,6 +5,7 @@
   "version": "${mod_version}",
   "description": "${mod_description}",
   "environment": "*",
+  "icon": "icon.png",
   "entrypoints": {
     "main": [
       "com.legendaryspy.connectedcore.loaders.fabric.FabricEntrypoint"
