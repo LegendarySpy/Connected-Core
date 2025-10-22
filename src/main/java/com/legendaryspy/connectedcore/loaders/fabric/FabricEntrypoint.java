@@ -1,5 +1,5 @@
 //? if fabric {
-package com.legendaryspy.connectedcore.loaders.fabric;
+/*package com.legendaryspy.connectedcore.loaders.fabric;
 
 import com.legendaryspy.connectedcore.ConnectedCore;
 import com.legendaryspy.connectedcore.command.ConnectedCoreCommands;
@@ -19,4 +19,4 @@ public final class FabricEntrypoint implements ModInitializer {
 		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> ConnectedCoreCommands.register(dispatcher));
 	}
 }
-//?}
+*///?}

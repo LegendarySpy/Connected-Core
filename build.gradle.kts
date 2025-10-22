@@ -26,7 +26,7 @@ modstitch {
     metadata {
         modId = "connectedcore"
         modName = "Connected Core"
-        modVersion = "1.0.0"
+        modVersion = "1.0.1"
         modGroup = "com.legendaryspy"
         modAuthor = "LegendarySpy"
 
@@ -67,8 +67,6 @@ modstitch {
     }
 
     mixin {
-        addMixinsToModManifest = true
-
         configs.register("connectedcore")
     }
 }

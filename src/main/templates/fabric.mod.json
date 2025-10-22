@@ -9,5 +9,8 @@
     "main": [
       "com.legendaryspy.connectedcore.loaders.fabric.FabricEntrypoint"
     ]
-  }
+  },
+  "mixins": [
+    "connectedcore.mixins.json"
+  ]
 }

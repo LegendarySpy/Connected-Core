@@ -1,5 +1,5 @@
 //? if neoforge {
-/*package com.legendaryspy.connectedcore.loaders.neoforge;
+package com.legendaryspy.connectedcore.loaders.neoforge;
 
 import com.legendaryspy.connectedcore.ConnectedCore;
 import com.legendaryspy.connectedcore.command.ConnectedCoreCommands;
@@ -24,4 +24,4 @@ public final class NeoforgeEntrypoint {
 		ConnectedCoreCommands.register(event.getDispatcher());
 	}
 }
-*///?}
+//?}
